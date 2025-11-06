@@ -1,8 +1,10 @@
 [project]
 name = "calc_cli"
-version = "0.1.0"
+version = "0.2.0"
 description = "A simple CLI calculator built with Python"
-authors = [{ name = "Viper" }]
+authors = [{ name = "Shubham V" }]
+readme = "README.md"
+license = { file = "LICENSE" }
 requires-python = ">=3.12"
 
 [project.scripts]

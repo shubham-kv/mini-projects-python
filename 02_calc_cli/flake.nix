@@ -33,7 +33,6 @@
               fi
               source .venv/bin/activate
               echo "🐍 Virtualenv activated"
-              echo "Use 'pip install -r requirements.txt' if needed."
             '';
           };
         }

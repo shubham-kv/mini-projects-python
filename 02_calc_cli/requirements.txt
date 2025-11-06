@@ -1,1 +1,0 @@
--e git+https://github.com/shubham-kv/mini-python-projects.git@1705081e784da9e30f993dbcce81f5fcfa27511d#egg=calc_cli&subdirectory=02_calc_cli
