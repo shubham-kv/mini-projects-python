@@ -38,6 +38,8 @@ def process_command(args: argparse.Namespace):
         result = operation(args.x, args.y)
     except ZeroDivisionError:
         print("Cannot divide by zero!\n")
+    except OverflowError:
+        print("Value too large!\n")
     else:
         print(result)
 
