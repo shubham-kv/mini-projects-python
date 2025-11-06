@@ -1,5 +1,5 @@
 [project]
-name = "calc-cli"
+name = "calc_cli"
 version = "0.1.0"
 description = "A simple CLI calculator built with Python"
 authors = [{ name = "Viper" }]
