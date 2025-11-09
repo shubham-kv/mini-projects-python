@@ -1,12 +1,14 @@
-# calc-cli
 
-A command-line calculator that takes user input or command-line arguments,
-performs arithmetic, and prints results.
+# Calculator CLI
+
+A small command-line calculator that performs basic arithmetic (+, - , *, /,
+etc).
 
 ## Features
 
-1. Command line arguments
-2. REPL with history
+1. Takes command-line input in the form `<x> <operation> <y>` and prints
+   result.
+2. Interactive REPL with repl history.
 
 ## Installation
 
@@ -14,7 +16,7 @@ performs arithmetic, and prints results.
 pip install git+https://github.com/shubham-kv/mini-projects-python.git#egg=calc_cli\&subdirectory=02_calc_cli
 ```
 
-## Sample Usage
+## Usage
 
 ```bash
 % calc 1 + 2 
@@ -52,28 +54,12 @@ Calculator REPL mode. Type 'quit' or CTRL+D to quit.
 24.0
 >>> 4 / 6
 0.6666666666666666
->>> 17 % 3
+>>> 17 % 3  # Modulo
 2.0
->>> 17 // 3
+>>> 17 // 3 # Floor division
 5.0
 ```
 
-## Dev Setup
+## LICENSE
 
-Clone this project & install the package in editable mode:
-
-```bash
-pip install -e .
-```
-
-and run from anywhere:
-
-```bash
-calc 2 + 3
-```
-
-or run manually with python:
-
-```bash
-python main.py 2 + 3
-```
+MIT
