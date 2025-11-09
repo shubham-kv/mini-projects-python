@@ -13,7 +13,7 @@ etc).
 ## Installation
 
 ```bash
-pip install git+https://github.com/shubham-kv/mini-projects-python.git#egg=calc_cli\&subdirectory=02_calc_cli
+pip install git+https://github.com/shubham-kv/mini-python-projects.git#egg=calc_cli\&subdirectory=02-calc-cli
 ```
 
 ## Usage
