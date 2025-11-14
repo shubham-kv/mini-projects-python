@@ -39,3 +39,18 @@ def add_contact(
     save_contacts(contacts)
 
     return new_contact
+
+
+def search_contacts(query: str):
+    contacts = load_contacts()
+    found = [c for c in contacts if query.lower() in str(c["name"]).lower()]
+    return found
+
+
+def print_contacts(contacts: list[dict[str, int | str | None]]):
+    print(" %2s | %-20s | %-15s | %s " % ("Id", "Name", "Phone", "Email"))
+
+    for c in contacts:
+        print(
+            " %2d | %-20s | %-15s | %s " % (c["id"], c["name"], c["phone"], c["email"])
+        )

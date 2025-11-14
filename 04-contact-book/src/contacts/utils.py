@@ -15,7 +15,7 @@ def parse_phone(phone: str):
         return ("Number is not valid.", "")
 
     formatted_phone = phonenumbers.format_number(
-        phone_number, phonenumbers.PhoneNumberFormat.NATIONAL
+        phone_number, phonenumbers.PhoneNumberFormat.INTERNATIONAL
     )
 
     return (None, formatted_phone)
