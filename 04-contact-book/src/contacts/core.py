@@ -10,7 +10,7 @@ def add_contact(
     name: str, phone: str | None, email: str | None
 ) -> None | dict[str, str | None]:
     if phone and not is_valid_phone(phone):
-        print("Invalid phone, must be only numbers!")
+        print("Invalid phone, must not be empty!")
         return None
 
     if email and not is_valid_email(email):
