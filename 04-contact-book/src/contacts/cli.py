@@ -21,7 +21,7 @@ def build_arg_parser():
     _list_parser = subparsers.add_parser("list", help="List all contacts")
 
     delete_parser = subparsers.add_parser("delete", help="Delete a contact by id")
-    delete_parser.add_argument("id", type=int, help="Contact's Id")
+    delete_parser.add_argument("id", type=str, help="Contact's Id")
 
     return parser
 
